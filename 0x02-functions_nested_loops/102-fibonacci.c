@@ -17,7 +17,7 @@ int main(void)
 		printf("%li, %li", a, b);
 
 		if (counter != countto / 2)
-		       printif(", ");
+		       printf(", ");
 
 		a += b;
 		b += a;
