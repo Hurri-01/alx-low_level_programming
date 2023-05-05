@@ -19,7 +19,9 @@ int main(void)
 		a += b;
 		b += a;
 	}
-	
+	if (countto % 2 == 1)
+        	printif("%li", a);
+
 	printf("\n");
 
 	return (0);
