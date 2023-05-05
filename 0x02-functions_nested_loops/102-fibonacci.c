@@ -16,8 +16,8 @@ int main(void)
     for (counter = 1; counter <= (count_to / 2); counter++)
     {
         printf("%li, %li", a, b);
-        if (counter != (count_to / 2))
-            printf(", ");
+        	if (counter != (count_to / 2))
+            		printf(", ");
         a += b;
         b += a;
     }
